@@ -48,6 +48,7 @@ app.get('/getbookold/:id',function(req, res) {
  res.json(book);
  });
  });
+ console.log('hello world');
  app.get('/getbook/:id',async(req, res) =>{
  let id = req.params.id;
  book= await Books.findById(id)
