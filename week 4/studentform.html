@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <h1>Register Student</h1>
+
+    <form action="/addstudent" method="post">
+        <label>Student Name:</label>
+        <input type="text" name="studentname" /><br><br>
+
+        <label>Student ID:</label>
+        <input type="text" name="studentid" /><br><br>
+
+        <label>Program:</label>
+        <input type="text" name="program" /><br><br>
+
+        <label>Courses:</label><br>
+        <input type="checkbox" name="course" value="CN500"> CN500<br>
+        <input type="checkbox" name="course" value="CN600"> CN600<br>
+        <input type="checkbox" name="course" value="CN700"> CN700<br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
